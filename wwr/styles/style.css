@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Oswald:wght@300&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -23,14 +27,25 @@ main section {
 }
 
 body {
-    background-color: #26282A; 
+    font-family: "Oswald", Helvetica, sans-serif;
+    background-color: #26282A;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #707F98;
 }
 
 .home-title {
+    font-family: "Covered By Your Grace", Helvetica, sans-serif;
+    font-size: 2em;
     color: #707F98;
+    margin-top: 10px;
 }
 
 h4 {
@@ -42,10 +57,14 @@ h4 {
 }
 
 .msg p {
+    font-size: .8em;
     color: #26282A;
+    padding-bottom: 15px;
 }
 
 nav a {
+    text-decoration: none;
+    padding: 35px;
     color: #26282A;
     text-decoration: none;
 }
@@ -54,27 +73,47 @@ nav a:hover {
 }
 
 .book, .join {
+    font-size: 18px;
     background-color: #A3BEC4;
     color: #26282A;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
     background-color: #707F98;
-    color: #738C4C;
+    color: #26282A;
+    border-radius: 5px;
 }
 
 #background {
     background-color: #738C4C;
 }
 
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
     background-color: #A3BEC4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #707F98;
     color: #26282A;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -94,15 +133,23 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}

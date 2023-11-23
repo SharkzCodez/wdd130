@@ -176,6 +176,39 @@ main section img {
     box-shadow: 5px 5px 10px #707F98;
 }
 
+.faq {
+    display: grid;
+}
+.head {
+    grid-column: 1/3;
+    color: #A3BEC4;
+}
+
+.q {
+    background-color: #707F98;
+    color: #26282A;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 25px;
+    grid-row: 2/4;
+}
+
+.answer {
+    background-color: #738C4C;
+    color: #26282A;
+    text-align: center;
+    line-height: 25px;
+    padding-right: 30px;
+    padding-top: 10px;
+    grid-row: 2/4;
+}
+
+.page2img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
 footer {
     background-color: #707F98;
     color: #26282A;

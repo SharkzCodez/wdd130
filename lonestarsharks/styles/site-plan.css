@@ -38,6 +38,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+    background-color: #26282A;
 }
 img {
   display: block;
@@ -49,7 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  background-color: #D8BE2B;
 }
+
 hr {
   height: 3px;
   margin: 35px 0;
@@ -177,3 +180,32 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.main {
+  max-width: 1600;
+  margin: 0 auto;
+}
+
+.nurses, .whiteshark, .whales {
+  height: 500px;
+  width: 725px;
+}
+
+.species {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.nurseshark {
+  height: 500px;
+  width: 725px;
+}
+
+.help {
+  max-width: 1600;
+  margin: 0 auto;
+}
+
+.whaleshark {
+  height: 500px;
+  width: 725px;
+}

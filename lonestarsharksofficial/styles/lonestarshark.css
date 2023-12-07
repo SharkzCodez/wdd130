@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #ff0000; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #004aad  ;
+  --paragraph-background-color: #26282a  ;
   --nav-link-color: #ff0000;
   --nav-background-color: #D8be2b;
   --nav-hover-link-color: white;
@@ -121,6 +121,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  padding-left: 10%;
 }
 
 nav a:link, nav a:visited {
@@ -168,6 +169,13 @@ nav a:hover {
 .main {
   max-width: 1600;
   margin: 0 auto;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .nurses, .whiteshark, .whales {
@@ -220,6 +228,35 @@ nav a:hover {
 }
 
 .noaa a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.wireframe {
+  background-color: #D8BE2B;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+.wireframe  {
+  list-style-type: none;
+  display: flex;
+
+}
+.wireframe a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.wireframe a:link, .noaa a:visited {
+  color: var(--nav-link-color);
+  padding-left: 43%;
+}
+
+.wireframe a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }

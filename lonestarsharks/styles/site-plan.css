@@ -190,6 +190,11 @@ nav a:hover {
   width: 725px;
 }
 
+.homepic, .page1, .page2 {
+  height: 725px;
+  width: 500px;
+}
+
 .species {
   max-width: 1600px;
   margin: 0 auto;
